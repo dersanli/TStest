@@ -39,7 +39,6 @@ export default class Checkout {
             if (item.Name === this.itemLevelRule.itemName && minQuantityReached) {
                 price = this.itemLevelRule.discountPrice;
             }
-            console.log(total)
             total += price;
         })
 
